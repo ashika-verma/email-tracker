@@ -1,6 +1,10 @@
 /** @jsx jsx */
-import { jsx } from '@emotion/core';
-import React from 'react';
-import * as ReactDOM from 'react-dom';
+import { jsx, css } from '@emotion/react';
+import React from "react";
+import * as ReactDOM from "react-dom";
 
-ReactDOM.render(<div css={{ backgroundColor: 'blue' }}>test</div>, document.getElementById('root'));
+const testCss = css`
+  background-color: yellow;
+`;
+
+ReactDOM.render(<div css={testCss}>test</div>, document.getElementById("root"));
