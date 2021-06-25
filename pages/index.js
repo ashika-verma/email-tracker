@@ -97,7 +97,7 @@ export default class IndexPage extends React.Component {
         <nav css={STYLES_NAVIGATION}>Navigation</nav>
         <div css={STYLES_LAYOUT}>
           <span css={STYLES_LAYOUT_LEFT}>Left Sidebar</span>
-          <span css={STYLES_LAYOUT_RIGHT}>Right Content</span>
+          <span css={STYLES_LAYOUT_RIGHT}>TEST 1</span>
         </div>
       </React.Fragment>
     );
