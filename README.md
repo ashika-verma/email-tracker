@@ -1,29 +1,11 @@
-# next-express-emotion
+# Email Tracker
 
-My boilerplate for creating a SSR ready web application with a server.
+Create an email tracker! Take a transparent 1x1 png and throw it into your email signature. See when that email signature has been rendered on the recipient's email client and use this to your advantage! 
 
 #### Primary dependencies
 
 - [NextJS + Express Server](https://github.com/zeit/next.js/)
 - [Emotion CSS-in-JS](https://github.com/emotion-js/emotion)
-
-#### Jimmy, why on earth would I use this?
-
-- You love server side rendering.
-- You don't need a database, see [next-postgres](https://github.com/jimmylee/next-postgres) if you do.
-- You like my front-end code and want to see my technical choices in one place.
-- You need meta tag recommendations for SEO.
-- You need something you can extend because you write your own custom components and styles.
-
-#### Okay, why CSS-in-JS?
-
-- We use `css` as a prop so it still feels like [writing Vanilla CSS](https://github.com/jimmylee/next-express-emotion/blob/master/pages/index.js).
-- Auto-prefixing support, unless it is a quirk like hiding scrollbars on Firefox.
-- O(1) class name lookup like [Tachyons](https://tachyons.io/), except each class gets an unique string generated and you don't have to memorize their names.
-
-**Why not [insert another option]?**
-
-If you are sincere and researched, I am happy to have a conversation. Please file an issue.
 
 ## Setup
 
@@ -38,11 +20,6 @@ Now view localhost:8080 in your browser.
 
 ## Deploy To Production
 
-I use these services for all of my work:
-
-- [Render](https://render.com/i/internet-gift-from-jim)
-- [Fleek](https://fleek.co)
-- [Vercel](https://vercel.com/)
 - [Heroku](https://heroku.com)
 
 Then on the service you can run:
@@ -51,7 +28,3 @@ Then on the service you can run:
 npm run build
 npm run start
 ```
-
-## Questions?
-
-Twitter: [@wwwjim](https://twitter.com/wwwjim).
