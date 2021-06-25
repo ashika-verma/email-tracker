@@ -12,14 +12,6 @@ const logger = createLogger({
         useUnifiedTopology: true,
       },
     }),
-    new transports.MongoDB({
-      db: process.env.MONGODB_URI,
-      level: "info",
-      collection: process.env.MONGODB_COLLECTION,
-      options: {
-        useUnifiedTopology: true,
-      },
-    }),
     new transports.Console({
       format: format.combine(format.colorize(), format.simple()),
     }),
