@@ -11,7 +11,7 @@ const nextRequestHandler = app.getRequestHandler();
 
 function logRequest(req, res, next) {
   // https://regex101.com/r/yRs8Ws/1/
-  const regex = /\/static\/[0-9]*\.png/gm;
+  const regex = /\/static\/imgs\/[0-9]*\.png/gm;
   req.url.match(regex) ? logger.warn(req.url) : logger.info(req.url);
   next();
 }
